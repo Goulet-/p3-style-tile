@@ -1,0 +1,78 @@
+/*Primary Header*/
+h1 {
+	font-family: 'Advent Pro', sans-serif;
+	color: #85CEC2;
+}
+/*Body Text*/
+p {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 1em;
+	color: #ccc;
+	letter-spacing: .5em;
+}
+/* Base Line Links*/
+a:link,
+a:visited {
+	text-transform: uppercase;
+	text-decoration:none ;
+}
+
+a:hover {
+	background: #85CEC2;
+}
+
+/* Logo */
+img {
+	width: 400px;
+	height: 400px;
+}
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p, em {
+	margin: 0;
+	padding: 15px;
+}
+
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+	padding: 15px;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+.color-1 {
+	background: #85CEC2;
+}
+.color-2 {
+	background: #6ACBDA;
+}
+.color-3 {
+	background: #4D4D4D;
+}
+
+.pattern-1 {
+	background: url("../img/pattern1.png") no-repeat;
+} 
+.pattern-2 {
+	background: url("../img/pattern2.png") no-repeat;
+} 
+.pattern-3 {
+	background: url("../img/pattern3.png") no-repeat;
+} 
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
