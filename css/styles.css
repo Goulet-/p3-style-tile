@@ -2,12 +2,13 @@
 h1 {
 	font-family: 'Advent Pro', sans-serif;
 	color: #85CEC2;
+	font-size: 3em;
 }
 /*Body Text*/
 p {
 	font-family: 'Advent Pro', sans-serif;
 	font-size: 1em;
-	color: #ccc;
+	color: #000;
 	letter-spacing: .5em;
 }
 /* Base Line Links*/
@@ -23,17 +24,30 @@ a:hover {
 
 /* Logo */
 img {
-	width: 400px;
-	height: 400px;
+	width: 500px;
+	height: 500px;
 }
 
 
 /* Set Your Own Margin & Padding */
-h2, h3, p, em {
-	margin: 0;
-	padding: 15px;
+
+
+em{
+	line-height: 1em;
 }
 
+h1 {
+	list-style-type: square;
+}
+
+h2 {
+	font-size: 2em;
+	color: #4D4D4D;
+}
+
+h1, h2 ,h3, br {
+	line-height: 1em;
+}
 
 /* Layout for Style Tile*/
 section {
